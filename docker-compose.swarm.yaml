@@ -1,7 +1,7 @@
 version: "3.8"
 
 # =============================================================================
-# Evo CRM Community — Docker Swarm Stack
+# WizzDesk — Docker Swarm Stack
 # =============================================================================
 # Deploy:
 #   docker stack deploy -c docker-compose.swarm.yaml evo_crm
@@ -283,10 +283,10 @@ services:
       CORE_SERVICE_URL: http://evo_core:5555/api/v1
       APP_URL: https://${API_DOMAIN}
       API_TITLE: Agent Processor Community
-      API_DESCRIPTION: Agent Processor Community for Evo AI
+      API_DESCRIPTION: Agent Processor Community for WizzDesk
       API_VERSION: 1.0.0
       API_URL: https://${API_DOMAIN}
-      ORGANIZATION_NAME: ${ORGANIZATION_NAME:-Evo CRM}
+      ORGANIZATION_NAME: ${ORGANIZATION_NAME:-WizzDesk}
       TOOLS_CACHE_ENABLED: "true"
       TOOLS_CACHE_TTL: 3600
     volumes:

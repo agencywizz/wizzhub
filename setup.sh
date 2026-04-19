@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # =============================================================================
-# Evo CRM Community — Interactive Setup Script
+# WizzDesk — Interactive Setup Script
 # =============================================================================
-# This script sets up the entire Evo CRM platform from scratch.
+# This script sets up the entire WizzDesk platform from scratch.
 # It checks prerequisites, builds Docker images, seeds the database,
 # and starts all services.
 #
@@ -53,7 +53,7 @@ spinner() {
 echo ""
 echo "${GREEN}${BOLD}"
 echo "  ╔═══════════════════════════════════════════╗"
-echo "  ║         Evo CRM Community Setup            ║"
+echo "  ║         WizzDesk Setup            ║"
 echo "  ║   Open-Source AI-Powered CRM Platform     ║"
 echo "  ╚═══════════════════════════════════════════╝"
 echo "${RESET}"
@@ -224,7 +224,7 @@ sleep 10
 echo ""
 echo "${GREEN}${BOLD}"
 echo "  ╔═══════════════════════════════════════════════════════╗"
-echo "  ║           Evo CRM Community is running!                ║"
+echo "  ║           WizzDesk is running!                ║"
 echo "  ╚═══════════════════════════════════════════════════════╝"
 echo "${RESET}"
 echo ""

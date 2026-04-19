@@ -1,7 +1,7 @@
 version: "3.8"
 
 # =============================================================================
-# Evo CRM Community — Local Production Test
+# WizzDesk — Local Production Test
 # =============================================================================
 # Simulates the production swarm stack locally using docker compose.
 # Uses the same Docker Hub images that would run in production.
@@ -253,10 +253,10 @@ services:
       CORE_SERVICE_URL: http://evo_core:5555/api/v1
       APP_URL: http://localhost:8000
       API_TITLE: Agent Processor Community
-      API_DESCRIPTION: Agent Processor Community for Evo AI
+      API_DESCRIPTION: Agent Processor Community for WizzDesk
       API_VERSION: 1.0.0
       API_URL: http://localhost:8000
-      ORGANIZATION_NAME: Evo AI
+      ORGANIZATION_NAME: WizzDesk
       TOOLS_CACHE_ENABLED: "true"
       TOOLS_CACHE_TTL: 3600
     volumes:
