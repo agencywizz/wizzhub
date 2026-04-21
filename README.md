@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://wizzcomms.com">
-    <img src="./public/hover-evolution.png" alt="Evolution" />
+    <img src="./public/logo.png" alt="WizzDesk" />
   </a>
 </p>
 
@@ -64,8 +64,8 @@ The platform is composed of 6 independent services:
 ### 1. Clone with submodules
 
 ```bash
-git clone --recurse-submodules git@github.com:EvolutionAPI/evo-crm-community.git
-cd evo-crm-community
+git clone --recurse-submodules git@github.com:agencywizz/wizzdesk.git
+cd wizzdesk
 ```
 
 If you already cloned without submodules:
